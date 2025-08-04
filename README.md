@@ -1,4 +1,6 @@
-# Code Snippets from Vibe Coding Fundamentals
+# Vibe Coding Fundamentals - Code Repository
+
+A public repository of the code accompanying the book Vibe Coding Fundamentals.
 
 This folder contains all code snippets extracted from the book, organized by chapter.
 
