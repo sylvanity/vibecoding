@@ -1,0 +1,14 @@
+// Snippet 06 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: .alert { /* Selects all elements with class=``aler...
+// 
+.alert { /* Selects all elements with class=``alert'' */
+  color: red;
+  border: 1px solid red;
+}
+.button-primary { /* Selects elements with class=``button-primary'' */
+  background-color: blue;
+  color: white;
+}

@@ -1,0 +1,10 @@
+// Snippet 14 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Selects all <p> elements that follow an <h1> (s...
+// 
+/* Selects all <p> elements that follow an <h1> (sharing the same parent) */
+h1 ~ p {
+  color: #555;
+}

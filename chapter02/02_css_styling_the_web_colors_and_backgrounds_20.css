@@ -1,0 +1,13 @@
+// Snippet 20 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Colors and Backgrounds
+// Language: css
+// Description: .box1 { color: darkcyan; } /* Keyword */
+// 
+.box1 { color: darkcyan; } /* Keyword */
+.box2 { color: #008B8B; } /* Hex RRGGBB */
+.box3 { color: #08B; }    /* Hex RGB */
+.box4 { color: rgb(0, 139, 139); } /* RGB */
+.box5 { color: rgba(0, 139, 139, 0.8); } /* RGBA */
+.box6 { color: hsl(180, 100%, 27%); } /* HSL */
+.box7 { color: hsla(180, 100%, 27%, 0.8); } /* HSLA */

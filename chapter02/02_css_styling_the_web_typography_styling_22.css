@@ -1,0 +1,26 @@
+// Snippet 22 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Typography Styling
+// Language: css
+// Description: /* Font family examples */
+// 
+/* Font family examples */
+body {
+  font-family: ``Source Sans Pro'', Arial, sans-serif;
+}
+
+code {
+  font-family: ``Fira Code'', Consolas, monospace;
+}
+
+/* Custom font declaration */
+@font-face {
+  font-family: ``MyCustomFont'';
+  src: url(``fonts/mycustomfont.woff2'') format(``woff2''),
+       url(``fonts/mycustomfont.woff'') format(``woff'');
+}
+
+/* Use the custom font */
+.custom-text {
+  font-family: ``MyCustomFont'', sans-serif; /* Use the custom font */
+}

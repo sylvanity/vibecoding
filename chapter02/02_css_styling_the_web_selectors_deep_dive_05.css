@@ -1,0 +1,12 @@
+// Snippet 05 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: p { /* Selects all <p> elements */
+// 
+p { /* Selects all <p> elements */
+  line-height: 1.6;
+}
+div { /* Selects all <div> elements */
+  margin-bottom: 10px;
+}

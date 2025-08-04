@@ -1,0 +1,15 @@
+// Snippet 18 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Colors and Backgrounds
+// Language: css
+// Description: p {
+// 
+p {
+  color: #333333; /* Dark gray text */
+}
+.error-message {
+  color: red; /* Red text for errors */
+}
+a {
+  color: blue; /* Blue text for links */
+}

@@ -1,0 +1,27 @@
+// Snippet 21 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Colors and Backgrounds
+// Language: css
+// Description: body {
+// 
+body {
+  background-image: url(``images/background-pattern.png'');
+  background-repeat: repeat; /* Tile the image */
+  background-color: #eee; /* Fallback color */
+}
+
+.hero-section {
+  background-image: url(``images/hero-banner.jpg'');
+  background-size: cover; /* Scale image to cover the area */
+  background-position: center center; /* Center the image */
+  background-repeat: no-repeat;
+  height: 400px;
+  color: white; /* Ensure text is readable */
+}
+
+/* Shorthand example */
+.another-section {
+  background: lightblue url(``images/icon.svg'') no-repeat right center;
+  background-size: 30px;
+  padding-right: 40px; /* Make space for the icon */
+}

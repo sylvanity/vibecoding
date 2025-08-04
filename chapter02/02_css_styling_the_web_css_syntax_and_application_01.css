@@ -1,0 +1,25 @@
+// Snippet 01 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: CSS Syntax and Application
+// Language: css
+// Description: /* This is a CSS comment */
+// 
+/* This is a CSS comment */
+selector {
+  property1: value1; /* Declaration 1 */
+  property2: value2; /* Declaration 2 */
+  property3: value3; /* Declaration 3 */
+}
+
+/* Example targeting all paragraphs */
+p {
+  color: navy; /* Sets text color to navy */
+  font-size: 16px; /* Sets font size to 16 pixels */
+  line-height: 1.5; /* Sets the space between lines */
+}
+
+/* Example targeting elements with the class ``highlight'' */
+.highlight {
+  background-color: yellow;
+  font-weight: bold;
+}

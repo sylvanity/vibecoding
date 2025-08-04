@@ -1,0 +1,16 @@
+// Snippet 19 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Colors and Backgrounds
+// Language: css
+// Description: body {
+// 
+body {
+  background-color: #f0f8ff; /* AliceBlue background for the page */
+}
+.highlight {
+  background-color: yellow; /* Yellow background for highlighted sections */
+}
+button {
+  background-color: green;
+  color: white; /* Ensure text is readable on background */
+}

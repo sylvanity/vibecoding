@@ -1,0 +1,52 @@
+// Snippet 28 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Introduction to Responsive Design
+// Language: css
+// Description: /* --- Base (Mobile) Styles --- */
+// 
+/* --- Base (Mobile) Styles --- */
+.container {
+  width: 95%; /* Fluid width */
+  margin: 0 auto; /* Center container */
+}
+
+.sidebar {
+  display: none; /* Hide sidebar on small screens */
+}
+
+.main-content {
+  width: 100%;
+}
+
+/* --- Tablet Styles (and larger) --- */
+@media (min-width: 768px) {
+  .container {
+    width: 90%;
+    max-width: 960px; /* Add max width for larger screens */
+  }
+
+  .sidebar {
+    display: block; /* Show sidebar */
+    width: 30%;
+    float: left; /* Simple float layout (Flexbox/Grid are better) */
+    margin-right: 5%;
+  }
+
+  .main-content {
+    width: 65%;
+    float: left;
+  }
+
+  /* Clearfix needed for floats - omitted for brevity */
+}
+
+/* --- Desktop Styles (and larger) --- */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+  /* Potentially adjust font sizes, spacing, etc. */
+  body {
+    font-size: 18px;
+  }
+}

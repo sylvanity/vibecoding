@@ -1,0 +1,18 @@
+// Snippet 23 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Typography Styling
+// Language: css
+// Description: html {
+// 
+html {
+  font-size: 16px; /* Base font size for rem calculation */
+}
+body {
+  font-size: 1rem; /* Equivalent to 16px */
+}
+h1 {
+  font-size: 2.5rem; /* Equivalent to 40px */
+}
+.small-text {
+  font-size: 0.875em; /* 87.5% of parent's font size */
+}

@@ -1,0 +1,10 @@
+// Snippet 12 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Selects only <li> elements that are direct chil...
+// 
+/* Selects only <li> elements that are direct children of a <ul> */
+ul > li {
+  list-style-type: square;
+}
