@@ -1,0 +1,7 @@
+// Snippet 84 from Chapter 3
+// Section: TypeScript Fundamentals
+// Subsection: Setting Up a Basic TS Environment
+// Language: sh
+// Description: npm install -g typescript
+// 
+npm install -g typescript

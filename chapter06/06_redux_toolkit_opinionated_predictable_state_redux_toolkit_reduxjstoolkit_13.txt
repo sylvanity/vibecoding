@@ -1,0 +1,9 @@
+// Snippet 13 from Chapter 6
+// Section: Redux Toolkit: Opinionated, Predictable State
+// Subsection: Redux Toolkit (@reduxjs/toolkit)
+// Language: sh
+// Description: npm install @reduxjs/toolkit react-redux
+// 
+npm install @reduxjs/toolkit react-redux
+# or
+yarn add @reduxjs/toolkit react-redux

@@ -1,0 +1,9 @@
+// Snippet 85 from Chapter 3
+// Section: TypeScript Fundamentals
+// Subsection: Setting Up a Basic TS Environment
+// Language: sh
+// Description: npm install --save-dev typescript
+// 
+npm install --save-dev typescript
+# or using yarn:
+# yarn add --dev typescript

@@ -1,0 +1,37 @@
+// Snippet 09 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Style links on hover */
+// 
+/* Style links on hover */
+a:hover {
+  color: orange;
+  text-decoration: none;
+}
+
+/* Style input elements when they have focus */
+input:focus {
+  outline: 2px solid blue;
+  border-color: blue;
+}
+
+/* Style the first child paragraph of any parent */
+p:first-child {
+  font-weight: bold;
+}
+
+/* Style every odd list item */
+li:nth-child(odd) {
+  background-color: #eee;
+}
+
+/* Style checked checkboxes */
+input[type=``checkbox'']:checked + label {
+  text-decoration: line-through;
+}
+
+/* Style empty paragraphs */
+p:empty {
+  display: none;
+}

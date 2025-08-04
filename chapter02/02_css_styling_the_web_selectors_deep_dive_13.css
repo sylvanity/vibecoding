@@ -1,0 +1,10 @@
+// Snippet 13 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Selects a <p> that immediately follows an <h1> ...
+// 
+/* Selects a <p> that immediately follows an <h1> */
+h1 + p {
+  margin-top: 0; /* Remove top margin if paragraph follows h1 */
+}

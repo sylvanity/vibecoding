@@ -1,0 +1,36 @@
+// Snippet 08 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Selects <a> elements with an href attribute */
+// 
+/* Selects <a> elements with an href attribute */
+a[href] {
+  text-decoration: underline;
+}
+
+/* Selects <input> elements with type=``text'' */
+input[type=``text''] {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Selects elements with a data-tooltip attribute */
+[data-tooltip] {
+  position: relative;
+}
+
+/* Selects <a> elements whose href starts with ``https'' */
+a[href^=``https''] {
+  color: green;
+}
+
+/* Selects <a> elements whose href ends with ``.pdf'' */
+a[href$=``.pdf'']::after {
+  content: `` (PDF)'';
+}
+
+/* Selects <img> elements whose alt attribute contains ``logo'' */
+img[alt*=``logo''] {
+  border: 2px solid blue;
+}

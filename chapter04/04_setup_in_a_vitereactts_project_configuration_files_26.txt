@@ -1,0 +1,7 @@
+// Snippet 26 from Chapter 4
+// Section: Setup in a Vite/React/TS Project
+// Subsection: Configuration Files
+// Language: sh
+// Description: npx tailwindcss init -p
+// 
+npx tailwindcss init -p

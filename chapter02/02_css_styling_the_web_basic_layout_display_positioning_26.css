@@ -1,0 +1,44 @@
+// Snippet 26 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Basic Layout: Display \& Positioning
+// Language: css
+// Description: .relative-box {
+// 
+.relative-box {
+  position: relative;
+  top: 10px; /* Shift down 10px from original position */
+  left: 20px; /* Shift right 20px from original position */
+}
+
+.container {
+  position: relative; /* Establishes positioning context */
+  width: 300px;
+  height: 200px;
+  border: 1px solid #ccc;
+}
+
+.absolute-child {
+  position: absolute;
+  top: 10px; /* 10px from top of .container */
+  right: 10px; /* 10px from right of .container */
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  z-index: 10; /* Appears above other positioned elements with lower z-index */
+}
+
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000; /* High z-index to stay on top */
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 20px; /* Stick 20px from the top when scrolling */
+}

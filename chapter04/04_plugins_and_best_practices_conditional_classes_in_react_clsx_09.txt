@@ -1,0 +1,9 @@
+// Snippet 09 from Chapter 4
+// Section: Plugins and Best Practices
+// Subsection: Conditional Classes in React (clsx)
+// Language: sh
+// Description: npm install clsx tailwind-merge
+// 
+npm install clsx tailwind-merge
+# or
+# yarn add clsx tailwind-merge

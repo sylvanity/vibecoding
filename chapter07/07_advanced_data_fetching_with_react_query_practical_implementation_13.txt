@@ -1,0 +1,9 @@
+// Snippet 13 from Chapter 7
+// Section: Advanced Data Fetching with React Query
+// Subsection: Practical Implementation
+// Language: sh
+// Description: npm install @tanstack/react-query
+// 
+npm install @tanstack/react-query
+# or
+yarn add @tanstack/react-query

@@ -1,0 +1,41 @@
+// Snippet 10 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Style the first line of every paragraph */
+// 
+/* Style the first line of every paragraph */
+p::first-line {
+  font-variant: small-caps;
+}
+
+/* Style the first letter of every paragraph */
+p::first-letter {
+  font-size: 2em;
+  float: left;
+  margin-right: 0.1em;
+}
+
+/* Add content before elements with class ``icon'' */
+.icon::before {
+  content: ``▶ ''; /* Adds a symbol before the element's content */
+  color: gray;
+}
+
+/* Add content after elements with class ``note'' */
+.note::after {
+  content: `` - Important!'';
+  font-style: italic;
+}
+
+/* Style the placeholder text in input fields */
+input::placeholder {
+  color: #aaa;
+  font-style: italic;
+}
+
+/* Style selected text */
+::selection {
+  background-color: yellow;
+  color: black;
+}

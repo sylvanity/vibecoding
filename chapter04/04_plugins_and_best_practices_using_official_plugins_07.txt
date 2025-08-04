@@ -1,0 +1,9 @@
+// Snippet 07 from Chapter 4
+// Section: Plugins and Best Practices
+// Subsection: Using Official Plugins
+// Language: sh
+// Description: npm install -D @tailwindcss/forms
+// 
+npm install -D @tailwindcss/forms
+# or
+# yarn add -D @tailwindcss/forms

@@ -1,0 +1,50 @@
+// Snippet 09 from Chapter 9
+// Section: Network, Hosting \& HTTP Security Headers
+// Subsection: Real-World CORS Implementation: DSpace Case Study
+// Language: java
+// Description: @CrossOrigin(
+// 
+// CORS configuration for enhanced repository features
+@CrossOrigin(
+    origins = {
+        "https://repository.example.com",
+        "https://analytics.example.com",
+        "https://chat.example.com"
+    },
+    allowedHeaders = {
+        "Authorization", 
+        "Content-Type", 
+        "X-Requested-With",
+        "X-Analytics-Token",
+        "X-Chat-Session"
+    },
+    methods = {
+        RequestMethod.GET, 
+        RequestMethod.POST, 
+        RequestMethod.PUT, 
+        RequestMethod.DELETE,
+        RequestMethod.OPTIONS
+    },
+    allowCredentials = "true",
+    maxAge = 3600 // Cache preflight for 1 hour
+)
+@RestController
+@RequestMapping("/api/v2")
+public class EnhancedRepositoryController {
+    
+    @PostMapping("/analytics/event")
+    public ResponseEntity<AnalyticsResponse> trackEvent(
+        @RequestBody AnalyticsEvent event,
+        @RequestHeader("X-Analytics-Token") String token
+    ) {
+        // Enhanced analytics tracking with CORS support
+    }
+    
+    @PostMapping("/chat/query")
+    public ResponseEntity<ChatResponse> processChatQuery(
+        @RequestBody ChatQuery query,
+        @RequestHeader("X-Chat-Session") String sessionId
+    ) {
+        // AI chat processing with CORS support
+    }
+}

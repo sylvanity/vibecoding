@@ -1,0 +1,11 @@
+// Snippet 58 from Chapter 7
+// Section: Database Management \& Performance
+// Subsection: Database Migrations (Supabase CLI)
+// Language: sh
+// Description: supabase migration up
+// 
+# Link to your remote project if not already done
+# supabase link --project-ref <your-project-ref>
+
+# Apply pending migrations to the linked remote database
+supabase migration up

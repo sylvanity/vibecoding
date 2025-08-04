@@ -1,0 +1,15 @@
+// Snippet 15 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: h1, h2, h3 {
+// 
+h1, h2, h3 {
+  font-family: ``Georgia'', serif;
+  color: #333;
+}
+
+.button, input[type=``submit''] {
+  padding: 8px 15px;
+  border-radius: 4px;
+}

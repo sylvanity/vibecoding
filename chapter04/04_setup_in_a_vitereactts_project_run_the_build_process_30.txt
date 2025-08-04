@@ -1,0 +1,9 @@
+// Snippet 30 from Chapter 4
+// Section: Setup in a Vite/React/TS Project
+// Subsection: Run the Build Process
+// Language: sh
+// Description: npm run dev
+// 
+npm run dev
+# or
+# yarn dev

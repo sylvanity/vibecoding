@@ -1,0 +1,9 @@
+// Snippet 12 from Chapter 8
+// Section: Unit Testing
+// Subsection: Testing React Components with React Testing Library (RTL)
+// Language: sh
+// Description: npm install -D @testing-library/react @testing-lib...
+// 
+npm install -D @testing-library/react @testing-library/jest-dom @testing-library/user-event vitest jsdom # or jest @types/jest
+# or
+# yarn add -D @testing-library/react @testing-library/jest-dom @testing-library/user-event vitest jsdom # or jest @types/jest

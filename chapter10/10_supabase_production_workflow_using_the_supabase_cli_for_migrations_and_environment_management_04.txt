@@ -1,0 +1,11 @@
+// Snippet 04 from Chapter 10
+// Section: Supabase Production Workflow
+// Subsection: Using the Supabase CLI for Migrations and Environment Management
+// Language: sh
+// Description: supabase init
+// 
+# Initialize Supabase config in your project root (if not done)
+supabase init
+
+# Start local Supabase services (Docker required)
+supabase start

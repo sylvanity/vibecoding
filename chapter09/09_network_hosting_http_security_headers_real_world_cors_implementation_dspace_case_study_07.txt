@@ -1,0 +1,17 @@
+// Snippet 07 from Chapter 9
+// Section: Network, Hosting \& HTTP Security Headers
+// Subsection: Real-World CORS Implementation: DSpace Case Study
+// Language: java
+// Description: @CrossOrigin(origins = {"https://trusted-frontend....
+// 
+// Example CORS configuration for DSpace REST API
+@CrossOrigin(origins = {"https://trusted-frontend.com", "https://api.dspace.org"})
+@RestController
+@RequestMapping("/api")
+public class DSpaceRestController {
+    
+    @GetMapping("/items/{id}")
+    public ResponseEntity<Item> getItem(@PathVariable String id) {
+        // Implementation with CORS headers automatically added
+    }
+}

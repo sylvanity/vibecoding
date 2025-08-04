@@ -1,0 +1,24 @@
+// Snippet 24 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Typography Styling
+// Language: css
+// Description: a {
+// 
+a {
+  text-decoration: none; /* Remove underline from links */
+}
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.title {
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* Font shorthand: style weight size/line-height family */
+p.article {
+  font: italic normal 1rem/1.6 ``Times New Roman'', serif;
+}

@@ -1,0 +1,10 @@
+// Snippet 11 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: /* Selects any <a> element inside an element with ...
+// 
+/* Selects any <a> element inside an element with class ``nav-menu'' */
+.nav-menu a {
+  color: white;
+}

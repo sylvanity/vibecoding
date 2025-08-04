@@ -1,0 +1,8 @@
+// Snippet 06 from Chapter 10
+// Section: Supabase Production Workflow
+// Subsection: Using the Supabase CLI for Migrations and Environment Management
+// Language: sh
+// Description: supabase db pull
+// 
+# Ensure linked to the correct remote project
+supabase db pull

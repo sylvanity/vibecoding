@@ -1,0 +1,21 @@
+// Snippet 25 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Basic Layout: Display \& Positioning
+// Language: css
+// Description: span.block-link {
+// 
+span.block-link {
+  display: block; /* Make a span behave like a block */
+  width: 100%;
+  padding: 10px;
+  background-color: #eee;
+}
+
+li.horizontal-item {
+  display: inline-block; /* Place list items side-by-side */
+  margin-right: 15px;
+}
+
+.hidden-section {
+  display: none; /* Completely hide this section */
+}

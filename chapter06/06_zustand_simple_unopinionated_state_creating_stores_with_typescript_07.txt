@@ -1,0 +1,9 @@
+// Snippet 07 from Chapter 6
+// Section: Zustand: Simple, Unopinionated State
+// Subsection: Creating Stores with TypeScript
+// Language: sh
+// Description: npm install zustand
+// 
+npm install zustand
+# or
+# yarn add zustand

@@ -1,0 +1,9 @@
+// Snippet 01 from Chapter 10
+// Section: Deploying to Netlify
+// Subsection: Build Settings Configuration
+// Language: sh
+// Description: npm run build
+// 
+npm run build
+# or if using yarn:
+# yarn build

@@ -1,0 +1,7 @@
+// Snippet 37 from Chapter 5
+// Section: Introduction to React \& Modern Frontend Development
+// Subsection: Setting Up a React Project with Vite and TypeScript
+// Language: sh
+// Description: npm create vite@latest my-react-app --template rea...
+// 
+npm create vite@latest my-react-app --template react-ts

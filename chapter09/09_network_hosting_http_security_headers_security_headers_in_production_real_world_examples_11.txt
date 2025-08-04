@@ -1,0 +1,12 @@
+// Snippet 11 from Chapter 9
+// Section: Network, Hosting \& HTTP Security Headers
+// Subsection: Security Headers in Production: Real-World Examples
+// Language: nginx
+// Description: add_header Content-Security-Policy "default-src 's...
+// 
+# Enhanced analytics security headers
+add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://analytics.example.com https://trusted-analytics.com; connect-src 'self' https://api.example.com https://analytics.example.com; img-src 'self' data: https: https://analytics.example.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'self'; object-src 'none';" always;
+
+# Analytics-specific headers
+add_header X-Analytics-Token "required" always;
+add_header X-Requested-With "XMLHttpRequest" always;

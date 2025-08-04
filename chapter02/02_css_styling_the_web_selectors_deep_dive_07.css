@@ -1,0 +1,12 @@
+// Snippet 07 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: Selectors Deep Dive
+// Language: css
+// Description: background-color: #f0f0f0;
+// 
+#main-navigation { /* Selects the element with id=``main-navigation'' */
+  background-color: #f0f0f0;
+}
+#submit-button { /* Selects the element with id=``submit-button'' */
+  padding: 10px 20px;
+}

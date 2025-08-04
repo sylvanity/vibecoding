@@ -1,0 +1,9 @@
+// Snippet 03 from Chapter 10
+// Section: Build Processes and Optimization
+// Subsection: Vite Build Command Explained
+// Language: sh
+// Description: npm run build
+// 
+npm run build
+# or
+# yarn build

@@ -1,0 +1,7 @@
+// Snippet 57 from Chapter 7
+// Section: Database Management \& Performance
+// Subsection: Database Migrations (Supabase CLI)
+// Language: sh
+// Description: supabase db reset # WARNING: Destructive - resets ...
+// 
+supabase db reset # WARNING: Destructive - resets local DB

@@ -1,0 +1,9 @@
+// Snippet 25 from Chapter 4
+// Section: Setup in a Vite/React/TS Project
+// Subsection: Installation
+// Language: sh
+// Description: npm install -D tailwindcss postcss autoprefixer
+// 
+npm install -D tailwindcss postcss autoprefixer
+# or using yarn:
+# yarn add -D tailwindcss postcss autoprefixer

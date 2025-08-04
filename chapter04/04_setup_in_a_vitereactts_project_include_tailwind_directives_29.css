@@ -1,0 +1,16 @@
+// Snippet 29 from Chapter 4
+// Section: Setup in a Vite/React/TS Project
+// Subsection: Include Tailwind Directives
+// Language: css
+// Description: @tailwind base;
+// 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add custom base styles or component classes below */
+/*
+body {
+  @apply font-sans antialiased;
+}
+*/

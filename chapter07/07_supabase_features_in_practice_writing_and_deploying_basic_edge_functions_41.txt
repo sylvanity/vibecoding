@@ -1,0 +1,12 @@
+// Snippet 41 from Chapter 7
+// Section: Supabase Features in Practice
+// Subsection: Writing and Deploying Basic Edge Functions
+// Language: sh
+// Description: supabase functions deploy hello-world --no-verify-...
+// 
+# Ensure you are logged in (supabase login)
+# Ensure your project is linked (supabase link --project-ref YOUR_PROJECT_ID)
+
+supabase functions deploy hello-world --no-verify-jwt
+# Use --no-verify-jwt for publicly accessible functions
+# Omit it if the function requires user authentication (JWT is passed automatically)

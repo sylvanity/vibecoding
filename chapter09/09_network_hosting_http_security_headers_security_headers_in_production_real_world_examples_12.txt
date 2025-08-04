@@ -1,0 +1,12 @@
+// Snippet 12 from Chapter 9
+// Section: Network, Hosting \& HTTP Security Headers
+// Subsection: Security Headers in Production: Real-World Examples
+// Language: nginx
+// Description: add_header Content-Security-Policy "default-src 's...
+// 
+# AI chat security headers
+add_header Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://chat.example.com; connect-src 'self' https://api.example.com https://chat.example.com https://ai-service.example.com; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; frame-ancestors 'self'; object-src 'none';" always;
+
+# Chat-specific headers
+add_header X-Chat-Session "required" always;
+add_header X-AI-Provider "trusted-provider" always;

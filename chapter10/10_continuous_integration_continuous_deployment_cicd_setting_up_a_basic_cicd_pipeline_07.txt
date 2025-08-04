@@ -1,0 +1,14 @@
+// Snippet 07 from Chapter 10
+// Section: Continuous Integration \& Continuous Deployment (CI/CD)
+// Subsection: Setting up a Basic CI/CD Pipeline
+// Language: sh
+// Description: "scripts": {
+// 
+"scripts": {
+  "dev": "vite",
+  "build": "npm run test:run && vite build", // Run tests before building
+  "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+  "preview": "vite preview",
+  "test": "vitest", // Command to run tests interactively
+  "test:run": "vitest run --coverage" // Command for CI - run tests once
+}

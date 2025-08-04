@@ -1,0 +1,15 @@
+// Snippet 05 from Chapter 10
+// Section: Supabase Production Workflow
+// Subsection: Using the Supabase CLI for Migrations and Environment Management
+// Language: sh
+// Description: supabase link --project-ref <prod-project-ref>
+// 
+# Get your project reference ID from the Supabase dashboard URL
+# (e.g., https://app.supabase.com/project/YOUR_PROJECT_REF)
+
+# Link production project (replace <prod-project-ref>)
+supabase link --project-ref <prod-project-ref>
+
+# Link staging project (if used) - Requires separate local directory or careful management
+# You might manage multiple linked projects via different configuration files or branches.
+# Alternatively, link/unlink as needed.

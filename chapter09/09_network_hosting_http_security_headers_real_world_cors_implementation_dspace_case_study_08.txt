@@ -1,0 +1,22 @@
+// Snippet 08 from Chapter 9
+// Section: Network, Hosting \& HTTP Security Headers
+// Subsection: Real-World CORS Implementation: DSpace Case Study
+// Language: java
+// Description: @CrossOrigin(
+// 
+// Advanced CORS configuration for authenticated requests
+@CrossOrigin(
+    origins = {"https://trusted-frontend.com"},
+    allowedHeaders = {"Authorization", "Content-Type", "X-Requested-With"},
+    methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE},
+    allowCredentials = "true"
+)
+@RestController
+@RequestMapping("/api/auth")
+public class DSpaceAuthController {
+    
+    @PostMapping("/login")
+    public ResponseEntity<AuthResponse> login(@RequestBody LoginRequest request) {
+        // Authentication with CORS support for credentials
+    }
+}

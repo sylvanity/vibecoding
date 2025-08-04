@@ -1,0 +1,19 @@
+// Snippet 17 from Chapter 2
+// Section: CSS: Styling the Web
+// Subsection: The Box Model In-Depth
+// Language: css
+// Description: *, *::before, *::after { /* Apply to all elements ...
+// 
+*, *::before, *::after { /* Apply to all elements and pseudo-elements */
+  box-sizing: border-box;
+}
+
+.box-borderbox {
+  width: 300px; /* Total width including padding & border */
+  height: 150px; /* Total height including padding & border */
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+  background-color: lightcoral;
+}
+/* Content width is now 300px - (2*20px) - (2*5px) = 250px */

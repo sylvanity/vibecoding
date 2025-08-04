@@ -1,0 +1,7 @@
+// Snippet 86 from Chapter 3
+// Section: TypeScript Fundamentals
+// Subsection: Setting Up a Basic TS Environment
+// Language: sh
+// Description: npx tsc --init
+// 
+npx tsc --init

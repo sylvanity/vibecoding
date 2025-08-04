@@ -1,0 +1,9 @@
+// Snippet 56 from Chapter 7
+// Section: Database Management \& Performance
+// Subsection: Database Migrations (Supabase CLI)
+// Language: sh
+// Description: supabase migration new your_migration_name
+// 
+# Ensure local Supabase is running (supabase start)
+# Generate a new migration file based on local DB changes
+supabase migration new your_migration_name

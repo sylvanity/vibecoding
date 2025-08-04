@@ -1,0 +1,10 @@
+// Snippet 53 from Chapter 7
+// Section: Consuming APIs from React
+// Subsection: Using \texttt{axios
+// Source: Backend Interaction (REST APIs and Supabase_SQL)/Consuming APIs from React.tex (line 92)
+// Language: sh
+// Description: npm install axios
+// 
+npm install axios
+# or
+# yarn add axios

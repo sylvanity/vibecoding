@@ -1,0 +1,7 @@
+// Snippet 02 from Chapter 10
+// Section: Deploying to Netlify
+// Subsection: Build Settings Configuration
+// Language: sh
+// Description: dist
+// 
+dist
